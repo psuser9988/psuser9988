@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Media</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="css/style-speakers.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="images/G.png"/>
+</head>
+<body>
+<div id="wrapper">
+<header>
+  <div class="container">
+    <div class="logo col-md-5 col-sm-5 col-xs-8"> <a href="index.html"> <img src="images/silicon-logo.png" alt="logo"/></a> </div>
+    <div class="mobile-togle col-md-12 col-sm-12 col-xs-12">
+      <!--1-->
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" id="hamburger" class="navbar-toggle x collapsed" data-toggle="collapse" data-target="#navbar-collapse-x"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="#top"></a> </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-x">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <div class="search1">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+            </li>
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item"> <a class="nav-link" href="our-story.html">Our story<span class="sr-only">(current)</span></a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#">Brands</a> </li>
+              <li class="nav-item"> <a class="nav-link disabled" href="robotics.html">Robotics</a> </li>
+              <li class="nav-item"> <a class="nav-link disabled" href="media.html">Media</a> </li>
+              <li class="nav-item"> <a class="nav-link disabled" href="#">Support</a> </li>
+            </ul>
+          </ul>
+        </div>
+        <!-- .navbar-collapse -->
+      </nav>
+    </div>
+    <div class="right_section col-md-5 col-xs-12">
+      <div class="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <i class="fas fa-bars"></i> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"> <a class="nav-link" href="our-story.html">Our story<span class="sr-only">(current)</span></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Brands</a> </li>
+            <li class="nav-item"> <a class="nav-link disabled" href="robotics.html">Robotics</a> </li>
+            <li class="nav-item"> <a class="nav-link disabled" href="media.html">Media</a> </li>
+            <li class="nav-item"> <a class="nav-link disabled" href="#">Support</a> </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="sign-in col-md-2"> <span class="dvider"></span>
+      <div class="sign"> <a hrf="#"><img class="sign-in-img" src="images/avatar.svg" alt="sign-in"> Sign-in</a> </div>
+    </div>
+  </div>
+</header>
+<!---Toolbar-->
+<section class="toolbar">
+  <div class="container">
+  <ul class="toolrow">
+  <li><strong>Page</strong> 
+  <label class="custom"><input type="radio" name="page" ><span class="checkmark"></span> 5</label> 
+  <label class="custom"><input type="radio" name="page" checked><span class="checkmark"></span> 10</label> 
+  <label class="custom"><input type="radio" name="page"><span class="checkmark"></span> 25</label>
+  </li>
+  <li><strong>Sort</strong> 
+  <label class="custom"><input type="radio" name="sort"><span class="checkmark"></span> ASC</label> 
+  <label class="custom"><input type="radio" name="sort"><span class="checkmark"></span> DESC</label>
+  </li>
+  <li><strong>Year</strong> <label class="dropmenu"><select class="form-control"><option>All Years</option> <option>2017</option> <option>2018</option> <option>2019</option></select></label></li>
+  <li><strong>Scrolling Type</strong> <label class="dropmenu"><select class="form-control"><option>None</option> <option>Infinite-Cursor</option> <option>Fixed</option> <option>Next-Prev-Cursor</option></select></label></li>
+  <li><strong>Show Sessions</strong> <label class="custom checkBox"><input type="checkbox" name="sessions" ><span class="checkmark"></span></label></li>
+  </ul>
+  <ul class="toolrow">
+  <li><big>Show Favorites List</big>  <label class="fav"><input type="checkbox"><span class="switch"></span></label></li>
+  <li>
+  <div class="pagination">
+     <a class="page-link" href="#" aria-label="Previous">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+      </a>
+...
+     <a class="page-link" href="#" aria-label="Previous">
+        <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </a>
+  </div>
+  </li>
+  </ul>
+  </div>
+</section>
+
+
+<!---Speakers List-->
+<section class="speakers">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="box">
+<div class="speaker-img">
+<span><img src="https://www.siliconvalley-codecamp.com/attendeeimage/46678.jpg" alt=""></span>
+</div>
+<div class="speaker-info">
+<div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
+<h3>Upkar Liddar</h3>
+<p>Upkar Liddar is a full Stack Developer and Data Wrangler with extensive experience in Python.</p>
+<div class="social">
+<div class="company"><h5>Company</h5><h6>Spira learning, LLC</h6></div>
+<div class="twitter"><h5>Twitter</h5><h6>@lidderupk</h6></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="box">
+<div class="speaker-img">
+<span><img src="https://www.siliconvalley-codecamp.com/attendeeimage/1530.jpg" alt=""></span>
+</div>
+<div class="speaker-info">
+<div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
+<h3>Tammy Baker</h3>
+<p>Use Flexbox Yesterday: A comprehensive introduction to the new CSS layout module</p>
+<div class="social">
+<div class="company"><h5>Company</h5><h6>Code Camp</h6></div>
+<div class="twitter"><h5>Twitter</h5><h6>@lidderupk</h6></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="box">
+<div class="speaker-img">
+<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/15072.jpg" alt=""></span>
+</div>
+<div class="speaker-info">
+<div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
+<h3>Maarten Balliauw</h3>
+<p>Using NuGet the way you should</p>
+<div class="social">
+<div class="twitter"><h5>Twitter</h5><h6>@maartenBalliauw</h6></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="box">
+<div class="speaker-img">
+<span><img src="https://www.siliconvalley-codecamp.com/attendeeimage/5443.jpg" alt=""></span>
+</div>
+<div class="speaker-info">
+<div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
+<h3>Mark Abramson</h3>
+<p>Accelerate your database development with Object-Relational Mapping (OR/M) in .NET    Year:2011
+  Introduction to Database Design with Entity Relationship (ER) Diagrams</p>
+<div class="social">
+<div class="company"><h5>Company</h5><h6>Printform Corporation</h6></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="box">
+<div class="speaker-img">
+<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/32604.jpg" alt=""></span>
+</div>
+<div class="speaker-info">
+<div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
+<h3>Manoj Agarwal</h3>
+<p>Building Reliable and Resilient Services</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="box">
+<div class="speaker-img">
+<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/1078.jpg" alt=""></span>
+</div>
+<div class="speaker-info">
+<div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
+<h3>Andres Almiray</h3>
+<p>Building Rich Applications with Groovy's SwingBuilder</p>
+<div class="social">
+<div class="company"><h5>Company</h5><h6>Code Camp</h6></div>
+<div class="twitter"><h5>Twitter</h5><h6>@lidderupk</h6></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="box">
+<div class="speaker-img">
+<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/4124.jpg" alt=""></span>
+</div>
+<div class="speaker-info">
+<div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
+<h3>Gareth Bowles</h3>
+<p>Self-Service Build and Deployment at Netflix</p>
+<div class="social">
+<div class="company"><h5>Company</h5><h6>Apple</h6></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="box">
+<div class="speaker-img">
+<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/21151.jpg" alt=""></span>
+</div>
+<div class="speaker-info">
+<div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
+<h3>Cornelia Davis</h3>
+<p>Running Your Spring Apps in the Cloud. The Self-healing, Elastic Runtime that is Cloud Foundry</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="box">
+<div class="speaker-img">
+<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/1164.jpg" alt=""></span>
+</div>
+<div class="speaker-info">
+<div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
+<h3>Nima Dilmaghani</h3>
+<p>0 to 60 with Regular Expressions in 75 minutes</p>
+<div class="social">
+<div class="company"><h5>Company</h5><h6>YumDom</h6></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="box">
+<div class="speaker-img">
+<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/41808.jpg" alt=""></span>
+</div>
+<div class="speaker-info">
+<div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
+<h3>Paul Everitt</h3>
+<p>Productive TypeScript and React with WebStorm. Productive React/TypeScript/TDD: Love Story from Hell </p>
+<div class="social">
+<div class="company"><h5>Company</h5><h6>JetBrains, Inc.</h6></div>
+<div class="twitter"><h5>Twitter</h5><h6>@lidderupk</h6></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row text-center padT6">
+<a href="#" class="btn btn-primary btn-load"><i class="fa fa-repeat" aria-hidden="true"></i> Load More</a>
+</div>
+</div>
+</section>
+
+
+<footer>
+<div class="container">
+  <div class="main-footer col-md-12 col-xs-12">
+    <div class="foter-logo col-md-3 col-sm-3 col-xs-2"> <a href="index.html"><img class="desktop" src="images/silicon-logo-black.png"><img class="mobileImg" src="images/silicon-logo-black.png"> </a> </div>
+    <div class="links col-md-5 col-md-5 col-xs-10">
+      <ul class="quick-links col-md-4 col-xs-6">
+        <li><a href="our-story.html">Our Story</a></li>
+        <li><a href="#">Brands</a></li>
+        <li><a href="robotics.html">Robotics</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+      <ul class="quick-links second-row col-md-4 col-xs-6">
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Media Inquiries</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!---container-->
+<div class="video-sec col-md-4 col-sm-12 col-xs-12">
+<h1 class="video-heading text-center"><img src="images/pluralsight-white.png"></h1>
+<span class="border"></span>
+<p class="footer-p">This site is created for demonstrative purposes only and does not offer any real products or services.<p>
+
+
+
+
+</div>
+
+
+	</footer>
+
+
+
+
+
+
+
+</div><!--End of Wrapper ----------->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+jQuery(document).ready(function(){
+
+// alert("wow");
+ //  jQuery("header").addClass("fixed");
+ jQuery("#hamburger").click(function(){
+   //alert("The paragraph was clicked.");
+   jQuery("header").toggleClass("fixed");
+ });
+});
+</script>
+</script>
+</body>
+</html>
