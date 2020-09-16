@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Media</title>
+<title>Speakers</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -81,7 +81,7 @@
   </li>
   <li><strong>Year</strong> <label class="dropmenu"><select class="form-control"><option>All Years</option> <option>2017</option> <option>2018</option> <option>2019</option></select></label></li>
   <li><strong>Scrolling Type</strong> <label class="dropmenu"><select class="form-control"><option>None</option> <option>Infinite-Cursor</option> <option>Fixed</option> <option>Next-Prev-Cursor</option></select></label></li>
-  <li><strong>Show Sessions</strong> <label class="custom checkBox"><input type="checkbox" name="sessions" ><span class="checkmark"></span></label></li>
+  <li class="show-sessions"><strong>Show Sessions</strong> <label class="custom checkBox"><input type="checkbox" name="sessions" value="sessionBox"><span class="checkmark"></span></label></li>
   </ul>
   <ul class="toolrow">
   <li><big>Show Favorites List</big>  <label class="fav"><input type="checkbox"><span class="switch"></span></label></li>
@@ -105,7 +105,27 @@
 <section class="speakers">
 <div class="container">
 <div class="row">
-<div class="col-md-6">
+<div class="fav-list">
+<div class="favbox">
+<div class="fav-clm col-sm-7"><span class="fav-img"><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/15072.jpg" alt=""></span>
+<h4>Maarten Balliauw</h4></div>
+<div class="fav-clm col-sm-5"><div class="action"><span><i class="fa fa-star orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div></div>
+</div>
+<div class="favbox">
+<div class="fav-clm col-sm-7"><span class="fav-img"><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/21151.jpg" alt=""></span>
+<h4>Cornelia Davis</h4></div>
+<div class="fav-clm col-sm-5"><div class="action"><span><i class="fa fa-star orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div></div>
+</div>
+<div class="favbox">
+<div class="fav-clm col-sm-7"><span class="fav-img"><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/4124.jpg" alt=""></span>
+<h4>Gareth Bowles</h4></div>
+<div class="fav-clm col-sm-5"><div class="action"><span><i class="fa fa-star orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div></div>
+</div>
+</div>
+
+<div class="speakers-list">
+<div class="speaker-row">
+<div class="col-md-6 speaker-col">
 <div class="box">
 <div class="speaker-img">
 <span><img src="https://www.siliconvalley-codecamp.com/attendeeimage/46678.jpg" alt=""></span>
@@ -118,10 +138,14 @@
 <div class="company"><h5>Company</h5><h6>Spira learning, LLC</h6></div>
 <div class="twitter"><h5>Twitter</h5><h6>@lidderupk</h6></div>
 </div>
+</div></div>
+<div class="sessionBox">
+<span class="session">"Introduction to Chatbots" <strong>Beginner</strong></span>
+<span class="session">"Order a Burger with spring Boot and Vue.js" <strong>Intermediate</strong></span>
+<a href="javascript:void()" class="addSes" data-toggle="modal" data-target=".add-new-session"><i>+</i></a>
 </div>
 </div>
-</div>
-<div class="col-md-6">
+<div class="col-md-6 speaker-col">
 <div class="box">
 <div class="speaker-img">
 <span><img src="https://www.siliconvalley-codecamp.com/attendeeimage/1530.jpg" alt=""></span>
@@ -136,8 +160,14 @@
 </div>
 </div>
 </div>
+<div class="sessionBox">
+<span class="session">"C++ web servers and API's" <strong>Intermediate</strong></span>
+<a href="javascript:void()" class="addSes" data-toggle="modal" data-target=".add-new-session"><i>+</i></a>
 </div>
-<div class="col-md-6">
+</div>
+</div>
+<div class="speaker-row">
+<div class="col-md-6 speaker-col">
 <div class="box">
 <div class="speaker-img">
 <span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/15072.jpg" alt=""></span>
@@ -151,11 +181,16 @@
 </div>
 </div>
 </div>
+<div class="sessionBox">
+<span class="session">"Introduction to Chatbots" <strong>Beginner</strong></span>
+<span class="session">"Order a Burger with spring Boot and Vue.js" <strong>Intermediate</strong></span>
+<a href="javascript:void()" class="addSes" data-toggle="modal" data-target=".add-new-session"><i>+</i></a>
 </div>
-<div class="col-md-6">
+</div>
+<div class="col-md-6 speaker-col">
 <div class="box">
 <div class="speaker-img">
-<span><img src="https://www.siliconvalley-codecamp.com/attendeeimage/5443.jpg" alt=""></span>
+<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/1419.jpg" alt=""></span>
 </div>
 <div class="speaker-info">
 <div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
@@ -167,8 +202,15 @@
 </div>
 </div>
 </div>
+<div class="sessionBox">
+<span class="session">"Introduction to Chatbots" <strong>Beginner</strong></span>
+<span class="session">"Order a Burger with spring Boot and Vue.js" <strong>Intermediate</strong></span>
+<a href="javascript:void()" class="addSes" data-toggle="modal" data-target=".add-new-session"><i>+</i></a>
 </div>
-<div class="col-md-6">
+</div>
+</div>
+<div class="speaker-row">
+<div class="col-md-6 speaker-col">
 <div class="box">
 <div class="speaker-img">
 <span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/32604.jpg" alt=""></span>
@@ -179,11 +221,16 @@
 <p>Building Reliable and Resilient Services</p>
 </div>
 </div>
+<div class="sessionBox">
+<span class="session">"Introduction to Chatbots" <strong>Beginner</strong></span>
+<span class="session">"Order a Burger with spring Boot and Vue.js" <strong>Intermediate</strong></span>
+<a href="javascript:void()" class="addSes" data-toggle="modal" data-target=".add-new-session"><i>+</i></a>
 </div>
-<div class="col-md-6">
+</div>
+<div class="col-md-6 speaker-col">
 <div class="box">
 <div class="speaker-img">
-<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/1078.jpg" alt=""></span>
+<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/1124.jpg" alt=""></span>
 </div>
 <div class="speaker-info">
 <div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
@@ -195,11 +242,18 @@
 </div>
 </div>
 </div>
+<div class="sessionBox">
+<span class="session">"Introduction to Chatbots" <strong>Beginner</strong></span>
+<span class="session">"Order a Burger with spring Boot and Vue.js" <strong>Intermediate</strong></span>
+<a href="javascript:void()" class="addSes" data-toggle="modal" data-target=".add-new-session"><i>+</i></a>
 </div>
-<div class="col-md-6">
+</div>
+</div>
+<div class="speaker-row">
+<div class="col-md-6 speaker-col">
 <div class="box">
 <div class="speaker-img">
-<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/4124.jpg" alt=""></span>
+<span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/43911.jpg" alt=""></span>
 </div>
 <div class="speaker-info">
 <div class="action"><span><i class="fa fa-star-o orange"></i> Favorite <i class="fa fa-angle-down"></i></span> <span><i class="fa fa-trash red"></i> Delete</span></div>
@@ -210,8 +264,14 @@
 </div>
 </div>
 </div>
+<div class="sessionBox">
+<span class="session">"Introduction to Chatbots" <strong>Beginner</strong></span>
+<span class="session">"Order a Burger with spring Boot and Vue.js" <strong>Intermediate</strong></span>
+<span class="session">"Machine learning using the keras Python library" <strong>Intermediate</strong></span>
+<a href="javascript:void()" class="addSes" data-toggle="modal" data-target=".add-new-session"><i>+</i></a>
 </div>
-<div class="col-md-6">
+</div>
+<div class="col-md-6 speaker-col">
 <div class="box">
 <div class="speaker-img">
 <span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/21151.jpg" alt=""></span>
@@ -222,8 +282,14 @@
 <p>Running Your Spring Apps in the Cloud. The Self-healing, Elastic Runtime that is Cloud Foundry</p>
 </div>
 </div>
+<div class="sessionBox">
+<span class="session">"Introduction to Chatbots" <strong>Beginner</strong></span>
+<a href="javascript:void()" class="addSes" data-toggle="modal" data-target=".add-new-session"><i>+</i></a>
 </div>
-<div class="col-md-6">
+</div>
+</div>
+<div class="speaker-row">
+<div class="col-md-6 speaker-col">
 <div class="box">
 <div class="speaker-img">
 <span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/1164.jpg" alt=""></span>
@@ -237,8 +303,12 @@
 </div>
 </div>
 </div>
+<div class="sessionBox">
+<span class="session">"Introduction to Chatbots" <strong>Beginner</strong></span>
+<a href="javascript:void()" class="addSes" data-toggle="modal" data-target=".add-new-session"><i>+</i></a>
 </div>
-<div class="col-md-6">
+</div>
+<div class="col-md-6 speaker-col">
 <div class="box">
 <div class="speaker-img">
 <span><img src="http://ddrt7tzfkdwdf.cloudfront.net/attendeeimage/41808.jpg" alt=""></span>
@@ -253,12 +323,21 @@
 </div>
 </div>
 </div>
+<div class="sessionBox">
+<span class="session">"Order a Burger with spring Boot and Vue.js" <strong>Intermediate</strong></span>
+<a href="javascript:void()" class="addSes" data-toggle="modal" data-target=".add-new-session"><i>+</i></a>
 </div>
+</div>
+</div>
+</div>
+
+
+
 </div>
 <div class="row text-center padT6">
-<a href="#" class="btn btn-primary btn-load"><i class="fa fa-repeat" aria-hidden="true"></i> Load More</a>
+<div class="col-lg-12"><a href="#" class="btn btn-primary btn-load"><i class="fa fa-repeat" aria-hidden="true"></i> Load More</a></div>
 </div>
-</div>
+</div></div>
 </section>
 
 
@@ -299,6 +378,35 @@
 
 
 
+<!-- The Modal -->
+<div class="modal add-new-session">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title text-center"><strong>Upkar Liddar</strong> - Add a New Session</h3>
+        <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+      </div>
+      <div class="modal-body">
+  <div class="form-group padT2">
+    <label for="title">Session Title</label>
+    <input type="text" class="form-control">
+  </div>
+  <div class="form-group padT2">
+    <label for="pwd">Session Level</label>
+    <select class="form-control">
+    <option>Beginner</option>
+    <option>Intermediate</option>
+    <option>Expert</option>
+    </select>
+  </div>
+  <div class="form-group padT2">
+  <button type="submit" class="btn btn-primary btn-load text-uppercase">Submit</button>
+  </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 
 
@@ -315,6 +423,19 @@ jQuery(document).ready(function(){
    //alert("The paragraph was clicked.");
    jQuery("header").toggleClass("fixed");
  });
+ 
+     jQuery('.show-sessions input[type="checkbox"]').click(function(){
+        var inputValue = $(this).attr("value");
+        jQuery("." + inputValue).slideToggle(300);
+    });
+	 
+	$('.fav input').change(function(){
+    if($(this).is(":checked")) {
+        $('.speakers').addClass('show-fav');
+    } else {
+        $('.speakers').removeClass('show-fav');
+    }
+}); 
 });
 </script>
 </script>
