@@ -87,6 +87,8 @@
   </ul>
   <ul class="toolrow">
   <li><big>Show Favorites List</big>  <label class="fav"><input type="checkbox"><span class="switch"></span></label></li>
+    </li>
+   <li><strong>Theme</strong> <label class="dropmenu"><select class="form-control theme"><option value="light">Light</option> <option value="dark">Dark</option></select></label></li>
   <li>
   <div class="pagination">
      <a class="page-link" href="#" aria-label="Previous">
@@ -97,7 +99,7 @@
         <i class="fa fa-angle-right" aria-hidden="true"></i>
       </a>
   </div>
-  </li>
+
   </ul>
   </div>
 </section>
@@ -441,6 +443,14 @@ jQuery(document).ready(function(){
         $('.speakers').removeClass('show-fav');
     }
 }); 
+	
+$(".theme").change(function(){
+    if($(this).val() == "dark") {
+       $('body').addClass('dark');
+    } else {
+       $('body').removeClass('dark');
+    }
+});
 });
 </script>
 </script>
