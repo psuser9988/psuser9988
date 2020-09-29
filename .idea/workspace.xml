@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cf40370-e6eb-4537-af90-cb1e790d9d69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/speakers.html" beforeDir="false" afterPath="$PROJECT_DIR$/speakers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601406508266</updated>
-      <workItem from="1601406509307" duration="3895000" />
+      <workItem from="1601406509307" duration="6756000" />
     </task>
     <servers />
   </component>
@@ -52,5 +53,9 @@
       <screen x="0" y="23" width="3840" height="2064" />
     </state>
     <state x="2335" y="701" key="SettingsEditor/0.23.3840.2064/-2560.612.2560.1417@0.23.3840.2064" timestamp="1601407287730" />
+    <state x="2520" y="479" width="1068" height="1609" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601419654419">
+      <screen x="0" y="23" width="3840" height="2065" />
+    </state>
+    <state x="2520" y="479" width="1068" height="1609" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.3840.2065/-2560.612.2560.1417@0.23.3840.2065" timestamp="1601419654419" />
   </component>
 </project>
