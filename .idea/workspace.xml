@@ -2,7 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cf40370-e6eb-4537-af90-cb1e790d9d69" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/speakers.html" beforeDir="false" afterPath="$PROJECT_DIR$/speakers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-our-story.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-robotics.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-speakers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap-footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/G.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Globo-Logo-white-footer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Globo-Logo-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/girl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hero image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mobileBanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pluralsight-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sec2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sec3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shutterstock_211091626.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shutterstock_252243790.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shutterstock_564197512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shutterstock_645747736.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shutterstock_662279290.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shutterstock_725256820.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shutterstock_734412034.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/silicon-logo-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/silicon-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/fitvids.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-1.12.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-story.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/speakers.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,21 +79,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="1iCLDc1XT6QpYyFENWCmBE0cYu2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/peterkellner/repos/psuser9988",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css" />
@@ -42,6 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601406508266</updated>
       <workItem from="1601406509307" duration="10452000" />
+      <workItem from="1708389731262" duration="211000" />
     </task>
     <servers />
   </component>
